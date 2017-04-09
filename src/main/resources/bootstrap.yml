@@ -3,5 +3,6 @@ spring:
     name: microservice-demo 
   cloud:
     config: 
+#      uri: http://192.168.99.100:8888
       uri: http://localhost:8888
       label: MyAvivaSG
